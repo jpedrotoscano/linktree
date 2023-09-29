@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #E4F1FF;
+}
+
+#container {
+    margin: 56px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background: #AED2FF;
+    border-radius: 42px
+}
+
+#container .profile-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+#container .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    padding-top: 28px;
+}
+
+#container .social-media .social-media-links {
+    /* width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #E4F1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#container .social-media .social-media-links a i {
+    font-size: 45px;
+    color: #27005D;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #E4F1FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .social-media .social-media-links a i:hover {
+    background: #27005D;
+    color: #E4F1FF;
+}
+
+#container .project-list {
+    margin: 56px 0 22px 0;
+}
+
+/* #container .project-list .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    padding: 32px 180px;
+    background: #E4F1FF;
+    margin-bottom: 46px;
+    border-radius: 46px;
+} */
+
+/* #container .project-list .project:hover {
+    background: #27005D;
+    
+} */
+
+#container .project-list .project a {
+    /* color: #27005D;
+    width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    padding: 32px 180px;
+    background: #E4F1FF;
+    margin-bottom: 46px;
+    border-radius: 46px;
+}
+
+#container .project-list .project a:hover {
+    background: #27005D;
+    color: #E4F1FF
+}
